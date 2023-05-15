@@ -14,8 +14,7 @@ showHolidaysBtn.addEventListener("click", () =>  {
         // We get the response with the Json Data
         .then(response => response.json())
         .then(data => {
-
-
+            // Created const holidays to get all the data in just a variable
             const holidays = data;
             let html = "";
             holidays.forEach(holiday => {
