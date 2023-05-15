@@ -7,7 +7,7 @@ const holidaysContainer = document.getElementById("holidays-container");
 //const showHolidaysBtn is use for the casting of the element show-holidays-btn
 const showHolidaysBtn = document.getElementById("show-holidays-btn");
 
-
+//create of the function .addEvenrListener
 showHolidaysBtn.addEventListener("click", () =>  {
     fetch(apiUrl)
         .then(response => response.json())
