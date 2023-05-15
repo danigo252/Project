@@ -1,8 +1,11 @@
-// const apiUrl with the link to the API that will be used
+//const apiUrl with the link to the API that will be used
 const apiUrl = "https://date.nager.at/api/v2/publicholidays/2020/US";
-const holidaysContainer = document.getElementById("holidays-container");
-const showHolidaysBtn = document.getElementById("show-holidays-btn");
 
+//const holidayContainer is use for the casting of the element holidays-container
+const holidaysContainer = document.getElementById("holidays-container");
+
+//const showHolidaysBtn is use for the casting of the element show-holidays-btn
+const showHolidaysBtn = document.getElementById("show-holidays-btn");
 
 
 showHolidaysBtn.addEventListener("click", () => {
