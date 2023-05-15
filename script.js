@@ -39,6 +39,7 @@ showHolidaysBtn.addEventListener("click", () =>
         //Try and catch
         .catch(error => {
             console.error(error);
+            //Declaration of the error message in case of something goes wrong
             holidaysContainer.innerHTML = "An error occurred while fetching data.";
         });
 });
