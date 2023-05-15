@@ -19,6 +19,7 @@ showHolidaysBtn.addEventListener("click", () =>  {
             let html = "";
             //We use .forEach to separete elements from data
             holidays.forEach(holiday => {
+                //Everytime we get a new element,it creates a render of the data
                 html += `
          <div class="holiday">
            <h2>${holiday.name}</h2>
