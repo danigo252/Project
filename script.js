@@ -8,7 +8,7 @@ const holidaysContainer = document.getElementById("holidays-container");
 const showHolidaysBtn = document.getElementById("show-holidays-btn");
 
 
-showHolidaysBtn.addEventListener("click", () => {
+showHolidaysBtn.addEventListener("click", () =>  {
     fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
