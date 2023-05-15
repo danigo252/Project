@@ -9,6 +9,7 @@ const showHolidaysBtn = document.getElementById("show-holidays-btn");
 
 //create of the function .addEvenrListener
 showHolidaysBtn.addEventListener("click", () =>  {
+    // function fetch to get the apiUrl
     fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
