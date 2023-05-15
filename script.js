@@ -11,6 +11,7 @@ const showHolidaysBtn = document.getElementById("show-holidays-btn");
 showHolidaysBtn.addEventListener("click", () =>  {
     // function fetch to get the apiUrl
     fetch(apiUrl)
+        // We get the response with the Json Data
         .then(response => response.json())
         .then(data => {
 
