@@ -36,6 +36,7 @@ showHolidaysBtn.addEventListener("click", () =>
             holidaysContainer.innerHTML = html;
             showHolidaysBtn.style.display = "none";
         })
+        //Try and catch
         .catch(error => {
             console.error(error);
             holidaysContainer.innerHTML = "An error occurred while fetching data.";
