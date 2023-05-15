@@ -17,6 +17,7 @@ showHolidaysBtn.addEventListener("click", () =>  {
             // Created const holidays to get all the data in just a variable
             const holidays = data;
             let html = "";
+            //We use .forEach to separete elements from data
             holidays.forEach(holiday => {
                 html += `
          <div class="holiday">
